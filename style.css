@@ -7,10 +7,18 @@ body {
     text-align: center;
 }
 
-#ortitle {
-    background-color: rgb(73, 133, 73);
+h1, h2 {
     color: white;
 }
+
+h2 {
+    font-style: italic;
+}
+
+#ortitle {
+    background-color: rgb(73, 133, 73);
+}
+
 
 #menuul {
     background-color: pink;
@@ -19,4 +27,8 @@ body {
 .menuli {
     background-color: lightgreen;
     font-weight: bold;
+}
+
+.receta_texto {
+    color:rgb(28, 28, 121);
 }
