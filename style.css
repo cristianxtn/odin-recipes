@@ -1,7 +1,22 @@
 body {
     font-family: "Courier New", "Verdana", sans-serif;
+    background-color: gray;
+}
+
+#menubody {
+    text-align: center;
 }
 
 #ortitle {
-    
+    background-color: rgb(73, 133, 73);
+    color: white;
+}
+
+#menuul {
+    background-color: pink;
+}
+
+.menuli {
+    background-color: lightgreen;
+    font-weight: bold;
 }
