@@ -1,10 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Courier New", "Verdana", sans-serif;
     background-color: gray;
+    margin: 0;
 }
 
 #menubody {
     text-align: center;
+    max-width: 600px;
+    margin: auto;
 }
 
 h1, h2 {
@@ -17,17 +25,34 @@ h2 {
 
 #ortitle {
     background-color: rgb(73, 133, 73);
+    margin-top: 20px;
+    border: rgb(161, 106, 212) 5px solid;
 }
-
 
 #menuul {
     background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    border: rgb(161, 106, 212) 5px solid;
 }
 
 .menuli {
     background-color: lightgreen;
     font-weight: bold;
+    list-style-type: none;
+    padding: 10px 0;
+    border: rgb(161, 106, 212) 5px solid;
 }
+
+#lista1 {
+    margin-bottom: 20px;
+}
+
+#lista2 {
+    margin-bottom: 20px;
+}
+
+/* CSS for secondary pages start here*/
 
 .receta_texto {
     color:rgb(28, 28, 121);
